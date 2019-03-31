@@ -1,0 +1,19 @@
+p{
+	text-align:right;
+	font-size:20px;
+	color:blue;
+}
+@media (max-width: 1000px){
+	p{
+		text-align:center;
+		font-size:40px;
+		color:purple;
+	}
+}
+@media (max-width: 700px){
+	p{
+		text-align:justify;
+		font-size:10px;
+		color:darkred;
+	}
+}
